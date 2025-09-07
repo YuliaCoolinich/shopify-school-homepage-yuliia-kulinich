@@ -1,3 +1,3 @@
+import './styles/reset.css';
 import './styles/main.css';
-
-console.log('Test task');
+import './styles/components/header.css';
