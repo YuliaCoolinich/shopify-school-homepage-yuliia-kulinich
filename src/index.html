@@ -47,6 +47,77 @@
         <div class="swiper-pagination"></div>
       </div>
     </section>
+    <section class="featured-collection">
+      <div class="featured-collection-wrapper">
+        <div>
+          <h2 class="poppins-regular">Featured Collection</h2>
+        </div>
+        <div class="product-list">
+          <div class="swiper" id="featuredCollection">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="product-card">
+                  <div class="product-wrapper">
+                    <img src="./assets/images/products/image-product-acrt4-main.png" alt="orange nike sneakers">
+                    <div class="product-info poppins-regular">
+                      <p class="product-name">Nike Streakfly 2</p>
+                      <p class="product-price">$300.00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product-card">
+                  <div class="product-wrapper">
+                    <img src="./assets/images/products/image-product-arct1-main.png" alt="white nike pegasus sneakers">
+                    <div class="product-info poppins-regular">
+                      <p class="product-name">Nike Pegasus Premium</p>
+                      <p class="product-price">$350.00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product-card">
+                  <div class="product-wrapper">
+                    <img src="./assets/images/products/image-product-acrt2-main.png" alt="black nike pegasus sneakers">
+                    <div class="product-info poppins-regular">
+                      <p class="product-name">Nike Pegasus 41</p>
+                      <p class="product-price">$280.00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product-card">
+                  <div class="product-wrapper">
+                    <img src="./assets/images/products/image-product-acrt3-main.png" alt="white new cool nike sneakers">
+                    <div class="product-info poppins-regular">
+                      <p class="product-name">Nike Revolution 7</p>
+                      <p class="product-price">$440.00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product-card">
+                  <div class="product-wrapper">
+                    <div class="product-image-wrapper">
+                      <img src="./assets/images/products/image-product-acrt2-main.png" alt="pink cool fashion nike sneakers">
+                    </div>
+                    <div class="product-info poppins-regular">
+                      <p class="product-name">Nike Air Max Plus</p>
+                      <p class="product-price">$280.00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
       const swiperHero = new Swiper('#swiperHero', {
@@ -58,6 +129,15 @@
             clickable: true,
           },
       });
+      const swiperFeaturedCollection = new Swiper('#featuredCollection', {
+          direction: 'horizontal',
+          loop: true,
+          slidesPerView: 4,
+          spaceBetween: 24,
+          navigation: {
+            nextEl: ".swiper-button-next",
+          },
+      })
     </script>
   </body>
 </html>
