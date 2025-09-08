@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"></head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <body>
     <header>
       <div class="header-container poppins-regular">
@@ -23,5 +24,40 @@
         <a href="#cart"><img src='./assets/icons/cart.svg' width="24" height="24" alt="Card" /></a>
     </div>
     </header>
+    <section class="hero">
+      <div class="hero-wrapper-container">
+        <div class="hero-container">
+            <h1 class="poppins-bold">More than just shoes — it's a part of your story.</h1>
+            <p class="poppins-regular">Original sneakers from Nike and other top brands that make every step feel special.</p>
+            <button type="button" onclick="console.log(`Button is clicked!`);"><span class="poppins-regular">Shop the collection</span></button>
+        </div>
+      </div>
+      <div class="swiper" id="swiperHero">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./assets/images/slider/Slide-1.png" alt="Nike logo" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/slider/Slide-2.png" alt="Woman with a pink sneakers on the street" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/slider/Slide-3.png" alt="Orange sneakers standing on the street" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiperHero = new Swiper('#swiperHero', {
+          direction: 'horizontal',
+          loop: false,
+          slidesPerView: 1,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+      });
+    </script>
   </body>
 </html>
