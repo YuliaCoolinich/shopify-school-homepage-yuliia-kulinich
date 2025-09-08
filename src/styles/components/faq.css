@@ -1,0 +1,93 @@
+section.faq {
+  padding: 80px 60px; 
+  min-height: 692px;
+  height: fit-content;
+  opacity: 1;
+  background-color: #F5F5F5;
+}
+
+.faq-wrapper {
+  max-width: 872px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.faq-header-wrapper {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+section.faq h2 {
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0;
+  text-align: center;
+
+}
+.faq-header-wrapper p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #737373;
+}
+
+.faq-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.faq-item-wrapper {
+  width: 100%;
+  min-height: 72px;
+  height: fit-content;
+  opacity: 1;
+
+  border: 1px stroke #EBEBEB;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  padding: 24px;
+}
+
+section.faq details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.faq-item-wrapper p {
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #737373;
+}
+
+section.faq summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+section.faq details > summary {
+  list-style: none;
+}
+section.faq details > summary::-webkit-details-marker {
+  display: none;
+}
+section.faq summary::after {
+  content: url('/src/assets/icons/plus-circle.svg'); 
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+section.faq details[open] summary::after {
+  content: url('/src/assets/icons/minus-circle.svg');
+}
