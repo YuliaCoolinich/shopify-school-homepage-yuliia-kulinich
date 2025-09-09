@@ -9,3 +9,51 @@
   font-weight: 700;
   font-style: normal;
 }
+
+
+section.ask-container {
+  padding: 80px 60px; 
+  min-height: 692px;
+  height: fit-content;
+  opacity: 1;
+  background-color: #F5F5F5;
+}
+
+.ask-wrapper {
+  max-width: 872px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ask-header-wrapper {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.ask-header-wrapper h2 {
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0;
+  text-align: center;
+
+}
+
+.ask-header-wrapper p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #737373;
+}
+
+.ask-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}

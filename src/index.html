@@ -118,13 +118,13 @@
         </div>
       </div>
     </section>
-    <section class="faq">
-      <div class="faq-wrapper">
-        <div class="faq-header-wrapper">
+    <section class="ask-container faq">
+      <div class="ask-wrapper">
+        <div class="ask-header-wrapper">
           <h2 class="poppins-regular">Frequently asked questions</h2>
           <p class="poppins-regular">Answers to our most frequently asked questions are just one click away.</p>
         </div>
-        <div class="faq-list-wrapper">
+        <div class="ask-list-wrapper">
           <div class="faq-item-wrapper">
             <details>
               <summary class="poppins-regular">What are Nike's delivery options?</summary>
@@ -156,6 +156,43 @@
                 When you shop Nike online, either in the Nike App or on Nike.com, you can return items that are unworn and unwashed and still have their product tags attached within 30 days of purchase (some exceptions apply). That includes custom Nike By You sneakers.
               </p>
             </details>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ask-container help">
+      <div class="ask-wrapper">
+        <div class="ask-header-wrapper">
+          <h2 class="poppins-regular">Need help?</h2>
+        </div>
+        <div class="ask-list-wrapper">
+          <div class="help-item-wrapper poppins-regular">
+            <form id="help-form" action="submitHelpForm()">
+              <div class="form-row-group">
+                <div class="form-wrapper-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Enter Name" />
+                </div>
+                <div class="form-wrapper-group">
+                  <label for="phone">Number</label>
+                  <input type="tel" id="phone" name="phone" placeholder="Enter Number" />
+                </div>
+              </div>
+              <div class="form-wrapper-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter Email" />
+              </div>
+              <div class="form-wrapper-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" cols="4" placeholder="Enter Message"></textarea>
+              </div>
+              <div class="help-button-wrapper">
+                <button type="submit" class="poppins-regular">Submit</button>
+              </div>
+              
+            </form>
+
+            
           </div>
         </div>
       </div>
