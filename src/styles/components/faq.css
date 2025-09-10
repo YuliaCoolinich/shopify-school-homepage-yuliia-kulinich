@@ -39,12 +39,12 @@ section.faq details > summary::-webkit-details-marker {
   display: none;
 }
 section.faq summary::after {
-  content: url('/src/assets/icons/plus-circle.svg'); 
+  content: url('../../assets/icons/plus-circle.svg'); 
   margin-right: 5px;
   width: 15px;
   height: 15px;
 }
 
 section.faq details[open] summary::after {
-  content: url('/src/assets/icons/minus-circle.svg');
+  content: url('../../assets/icons/minus-circle.svg');
 }
