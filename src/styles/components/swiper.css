@@ -61,6 +61,7 @@ section.hero .hero-wrapper-container {
 
   width: 648px;
   top: 150px;
+  height: 100%;
   margin: auto 60px;
   gap: 32px;
 }
