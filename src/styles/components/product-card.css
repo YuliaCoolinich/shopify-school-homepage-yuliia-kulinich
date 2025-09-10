@@ -21,7 +21,7 @@ section.product-card {
 }
 .product-images-container div {
   display: flex;
-  justify-content: stretch;
+  justify-content: space-between;
 }
 .product-image-menu {
   flex-direction: column;
@@ -44,12 +44,8 @@ section.product-card {
   flex-direction: column;
   align-items: stretch;
   justify-content: space-between;
+  align-self: stretch;
   gap: 32px;
-  margin: 24px 0;
-}
-
-.product-parameters-container div {
-  flex: 1;
 }
 
 .product-parameters-container h2 {
@@ -129,6 +125,7 @@ button.action {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0;
+  cursor:pointer;
 }
 .product-description p{
   font-size: 14px;
