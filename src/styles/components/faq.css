@@ -15,6 +15,7 @@ section.faq details {
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
+  cursor:pointer;
 }
 
 .faq-item-wrapper p {

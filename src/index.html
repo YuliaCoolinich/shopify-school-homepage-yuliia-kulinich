@@ -3,6 +3,7 @@
   <head lang="uk">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Market place of brand new sneakers for young fashion people">
     <title>Test task</title>
     <link rel="icon" type="image/svg" sizes="24*24" href="./assets/icons/logo.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,7 +13,7 @@
   <body>
     <header>
       <div class="header-container poppins-regular">
-        <img src='./assets/images/logo/Logo.png' width="100" height="24" alt="Company logo Stellar Soft" />
+        <img src='./assets/images/logo/logo.png' width="100" height="24" alt="Company logo Stellar Soft" />
         <nav>
           <ul>
             <li><a href="#new-feature-page" id="new-feature">New & Featured</a></li>
@@ -21,6 +22,9 @@
             <li><a href="#kids-page" id="kids">Kids</a></li>
           </ul>
         </nav>
+        <div class="menu-wrapper">
+          <img src='./assets/icons/menu.svg' width="24" height="24" alt="Hamburger menu icon" />
+        </div>
         <a href="#cart"><img src='./assets/icons/cart.svg' width="24" height="24" alt="Card" /></a>
     </div>
     </header>
@@ -35,13 +39,13 @@
       <div class="swiper" id="swiperHero">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="./assets/images/slider/Slide-1.png" alt="Nike logo" />
+            <img src="./assets/images/slider/slide-1.png" alt="Nike logo" />
           </div>
           <div class="swiper-slide">
-            <img src="./assets/images/slider/Slide-2.png" alt="Woman with a pink sneakers on the street" />
+            <img src="./assets/images/slider/slide-2.png" alt="Woman with a pink sneakers on the street" />
           </div>
           <div class="swiper-slide">
-            <img src="./assets/images/slider/Slide-3.png" alt="Orange sneakers standing on the street" />
+            <img src="./assets/images/slider/slide-3.png" alt="Orange sneakers standing on the street" />
           </div>
         </div>
         <div class="swiper-pagination"></div>
@@ -163,20 +167,23 @@
     <section class="product-card">
       <div class="product-images-container"> 
         <div class="product-image-menu" id="imageCollection">
-          <img src="./assets/images/products/product-0-image-0.png" alt="" class="selected"/>
-          <img src="./assets/images/products/product-0-image-1.png" alt=""/>
-          <img src="./assets/images/products/product-0-image-2.png" alt=""/>
-          <img src="./assets/images/products/product-0-image-3.png" alt=""/>
-          <img src="./assets/images/products/product-0-image-4.png" alt=""/>
+          <img src="./assets/images/products/product-0-image-0.png" alt="pink sneakers to left" class="selected"/>
+          <img src="./assets/images/products/product-0-image-1.png" alt="pink sneakers sole"/>
+          <img src="./assets/images/products/product-0-image-2.png" alt="pink sneakers to right"/>
+          <img src="./assets/images/products/product-0-image-3.png" alt="pink sneakers from top"/>
+          <img src="./assets/images/products/product-0-image-4.png" alt="pink sneakers back part"/>
         </div>
         <div class="product-image-main" id="productImage">
           <img src="./assets/images/products/product-0-image-0.png" alt="Pink sneakers"/>
+          <div class="badge">
+            <img src="./assets/icons/badge.svg" alt="badge with recommendation" />
+          </div>
         </div>
       </div>
       <div class="product-parameters-container poppins-regular">
         <div class="product-info-wrapper">
           <h2 id="productTitle" class="poppins-regular" >Nike Air Max Plus Pink</h2>
-          <p id="productPrice">$280</p>
+          <p id="productPrice">$280.00</p>
         </div>
         <div class="product-color-menu">
           <img src="./assets/images/products/product-0-image-0.png" alt="Pink sneakers"  id="0" class="selected"/>
@@ -305,11 +312,22 @@
       const swiperFeaturedCollection = new Swiper('#featuredCollection', {
           direction: 'horizontal',
           loop: true,
-          slidesPerView: 4,
-          spaceBetween: 24,
+          slidesPerView: 1,
+          spaceBetween: 10,
           navigation: {
             nextEl: ".swiper-button-next",
           },
+          breakpoints: {
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 15,
+            },
+            1280: {
+              slidesPerView: 4,
+              spaceBetween: 24,
+            },
+
+          }
       })
     </script>
   </body>
