@@ -1,0 +1,47 @@
+export const products = [
+  {
+    id: 0,
+    title: 'Nike Air Max Plus Pink',
+    'image-main': 'images/products/product-0-image-0.png',
+    'image-menu': [
+      'images/products/product-0-image-0.png',
+      'images/products/product-0-image-1.png',
+      'images/products/product-0-image-2.png',
+      'images/products/product-0-image-3.png',
+      'images/products/product-0-image-4.png',
+    ],
+    alt: 'Pink sneakers',
+    price: '$280',
+    sizes: ['UK 5.5', 'UK 6 (EU 39)', 'UK 6.5 (EU 40)', 'UK 7'],
+  },
+  {
+    id: 1,
+    title: 'Nike Air Max Plus Black',
+    'image-main': 'images/products/product-1-image-0.png',
+    'image-menu': [
+      'images/products/product-1-image-0.png',
+      'images/products/product-1-image-1.png',
+      'images/products/product-1-image-2.png',
+      'images/products/product-1-image-3.png',
+      'images/products/product-1-image-4.png',
+    ],
+    alt: 'Black sneakers',
+    price: '$300',
+    sizes: ['UK 5.5', 'UK 6 (EU 40)', 'UK 6.5', 'UK 7'],
+  },
+  {
+    id: 2,
+    title: 'Nike Air Max Plus White',
+    'image-main': 'images/products/product-2-image-0.png',
+    'image-menu': [
+      'images/products/product-2-image-0.png',
+      'images/products/product-2-image-1.png',
+      'images/products/product-2-image-2.png',
+      'images/products/product-2-image-3.png',
+      'images/products/product-2-image-4.png',
+    ],
+    alt: 'Black sneakers',
+    price: '$300',
+    sizes: ['UK 6 (EU 39)', 'UK 6 (EU 40)', 'UK 6.5', 'UK 7.5'],
+  },
+];
