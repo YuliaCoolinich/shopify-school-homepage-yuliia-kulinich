@@ -161,33 +161,44 @@
       </div>
     </section>
     <section class="product-card">
-      <div class="product-image-menu" id="imageCollection">
-        <img src="./assets/images/products/product-0-image-0.png" alt="" class="selected"/>
-        <img src="./assets/images/products/product-0-image-1.png" alt=""/>
-        <img src="./assets/images/products/product-0-image-2.png" alt=""/>
-        <img src="./assets/images/products/product-0-image-3.png" alt=""/>
-        <img src="./assets/images/products/product-0-image-4.png" alt=""/>
+      <div class="product-images-container"> 
+        <div class="product-image-menu" id="imageCollection">
+          <img src="./assets/images/products/product-0-image-0.png" alt="" class="selected"/>
+          <img src="./assets/images/products/product-0-image-1.png" alt=""/>
+          <img src="./assets/images/products/product-0-image-2.png" alt=""/>
+          <img src="./assets/images/products/product-0-image-3.png" alt=""/>
+          <img src="./assets/images/products/product-0-image-4.png" alt=""/>
+        </div>
+        <div class="product-image-main" id="productImage">
+          <img src="./assets/images/products/product-0-image-0.png" alt="Pink sneakers"/>
+        </div>
       </div>
-      <div class="product-image-main" id="productImage">
-        <img src="./assets/images/products/product-0-image-0.png" alt="Pink sneakers"/>
-      </div>
-      <div class="product-parameters-container">
-        <div id="productTitle">Nike Air Max Plus Pink</div>
-        <div id="productPrice">280</div>
+      <div class="product-parameters-container poppins-regular">
+        <div class="product-info-wrapper">
+          <h2 id="productTitle" class="poppins-regular" >Nike Air Max Plus Pink</h2>
+          <p id="productPrice">$280</p>
+        </div>
         <div class="product-color-menu">
           <img src="./assets/images/products/product-0-image-0.png" alt="Pink sneakers"  id="0" class="selected"/>
           <img src="./assets/images/products/product-1-image-0.png" alt="White sneakers" id="1" />
           <img src="./assets/images/products/product-2-image-0.png" alt="Black sneakers" id="2"/>
         </div>
-        <div class="size-wrapper" id="sizeCollection">
-          <button class="size-option available">UK 5.5</button>
-          <button class="size-option available">UK 6 (EU 39)</button>
-          <button class="size-option available">UK 6 (EU 40)</button>
-          <button class="size-option disabled">UK 7</button>
-          <button class="size-option disabled">UK 7.5</button>
-        </div>
+        <div>
+          <span class="size-wrapper-label">Select size:</span>
+          <div class="size-wrapper" id="sizeCollection">
+            <button class="size-option available">UK 5.5</button>
+            <button class="size-option available">UK 6 (EU 39)</button>
+            <button class="size-option available">UK 6 (EU 40)</button>
+            <button class="size-option available">UK 6.5</button>
+            <button class="size-option disabled">UK 7</button>
+            <button class="size-option disabled">UK 7.5</button>
+          </div>
+      </div>
 
-        <button>Add to Bag</button>
+        <button class="action">Add to Bag</button>
+        <div class="product-description">
+          <p>Let your attitude have the edge in your Nike Air Max Plus, a Tuned Air experience that offers premium stability and unbelievable cushioning.</p>
+        </div>
       </div>
     </section>
     <section class="ask-container help">

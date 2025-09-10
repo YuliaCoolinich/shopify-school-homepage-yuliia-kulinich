@@ -40,8 +40,6 @@ const productPriceContainer = document.getElementById('productPrice');
 // Add a click listener to each of the size button
 addSizeSelectEvent(sizesForSelecting);
 
-console.log(imagesForSelecting);
-
 // When an user changes a picture on the image menu panel, the page should update the main product images
 addImageSelectEvent(
   imagesForSelecting,

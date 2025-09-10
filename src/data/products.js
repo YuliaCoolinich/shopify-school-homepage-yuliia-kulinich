@@ -11,7 +11,7 @@ export const products = [
       'images/products/product-0-image-4.png',
     ],
     alt: 'Pink sneakers',
-    price: 280,
+    price: '$280',
     sizes: ['UK 5.5', 'UK 6 (EU 39)', 'UK 6.5 (EU 40)', 'UK 7'],
   },
   {
@@ -26,7 +26,7 @@ export const products = [
       'images/products/product-1-image-4.png',
     ],
     alt: 'Black sneakers',
-    price: 300,
+    price: '$300',
     sizes: ['UK 5.5', 'UK 6 (EU 40)', 'UK 6.5', 'UK 7'],
   },
   {
@@ -41,7 +41,7 @@ export const products = [
       'images/products/product-2-image-4.png',
     ],
     alt: 'Black sneakers',
-    price: 300,
+    price: '$300',
     sizes: ['UK 6 (EU 39)', 'UK 6 (EU 40)', 'UK 6.5', 'UK 7.5'],
   },
 ];
