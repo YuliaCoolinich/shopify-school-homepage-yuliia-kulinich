@@ -14,7 +14,7 @@ import {
   addSizeSelectEvent,
   addImageSelectEvent,
   addColorSelectEvent,
-} from './scripts/services/product-card.js';
+} from './scripts/services/productCard.js';
 
 // Process the entered user user form data
 const helpForm = document.getElementById('help-form');
