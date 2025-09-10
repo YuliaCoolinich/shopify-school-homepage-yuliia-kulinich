@@ -120,9 +120,6 @@ button.size-option.selected {
 
 button.action {
   background-color: #111111;
-
-  /* width: 612;
-  height: 56; */
   opacity: 1;
   gap: 10px;
   border-radius: 8px;
@@ -137,6 +134,17 @@ button.action {
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0;
+}
+
+.product-image-main {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  border-radius: 4px;
+  z-index: 10;
 }
 
 
