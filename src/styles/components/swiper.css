@@ -60,16 +60,15 @@ section.hero .hero-wrapper-container {
   position: sticky;
 
   width: 648px;
-  height: 208px;
-  top: 311px;
-  left: 60px;
+  top: 150px;
+  margin: auto 60px;
   gap: 32px;
 }
 
 .hero-container h1 {
   font-size: 48px;
   line-height: 48px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-transform: uppercase;
   color: #FFFFFF;
 }
@@ -88,11 +87,37 @@ div.hero-container button {
   padding: 16px 32px;
   pointer-events: all;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 div.hero-container button span {
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   color: #111111;
 }
+
+@media (max-width: 768px) {
+  section.hero {
+    height: 600px;
+  }
+  section.hero .swiper-slide {
+    overflow: hidden;
+  }
+  section.hero .swiper-slide img{
+    object-position: center;
+  }
+  .hero-container h1 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .hero-container {
+    align-items: center;
+    margin: auto;
+    top: 150px;
+    left: 0;
+    height: fit-content;
+    text-align: center;
+  }
+}
+
