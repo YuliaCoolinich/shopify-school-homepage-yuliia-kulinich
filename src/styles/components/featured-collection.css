@@ -39,7 +39,7 @@ section.featured-collection {
 }
 
 .swiper-button-next {
-  background-image: url('/src/assets/icons/arrow.svg') !important;
+  background-image: url('../../assets/icons/arrow.svg') !important;
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;

@@ -97,14 +97,14 @@ footer {
     display: none;
   }
   footer summary::after {
-    content: url('/src/assets/icons/top-small.svg'); 
+    content: url('../../assets/icons/top-small.svg');
     margin-right: 5px;
     width: 15px;
     height: 15px;
   }
   
   footer details[open] summary::after {
-    content: url('/src/assets/icons/down-small.svg');
+    content: url('../../assets/icons/down-small.svg');
   }
 
   .footer-bottom, .link-bottom-container ul {

@@ -13,6 +13,7 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
+    publicPath: './',
   },
   module: {
     rules: [
@@ -43,6 +44,14 @@ module.exports = {
         {
           from: path.resolve(__dirname, 'src/assets/images/products'),
           to: 'images/products',
+        },
+        {
+          from: path.resolve(__dirname, 'src/assets/images/slider'),
+          to: 'images/slider',
+        },
+        {
+          from: path.resolve(__dirname, 'src/assets/images/logo'),
+          to: 'images/logo',
         },
       ],
     }),
