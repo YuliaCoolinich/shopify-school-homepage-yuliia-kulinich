@@ -12,15 +12,6 @@ export const addSizeSelectEvent = (sizesForSelecting) =>
 export const addImageSelectEvent = (imagesForSelecting, selectedImage) => {
   imagesForSelecting.forEach((image) => {
     image.addEventListener('click', () => {
-      /* generate new img item with updated settings at div container with id - an example of realization:
-      const newImage = document.createElement('img');
-      newImage.src = image.src;
-      newImage.alt = image.alt;
-
-      selectedImageContainer.innerHTML = '';
-      selectedImageContainer.appendChild(newImage);
-      */
-
       // update already created img of product image settings
       selectedImage.children[0].src = image.src;
       selectedImage.children[0].alt = image.alt;
