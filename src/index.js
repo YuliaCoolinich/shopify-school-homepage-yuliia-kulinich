@@ -15,6 +15,10 @@ import {
   addImageSelectEvent,
   addColorSelectEvent,
 } from './scripts/services/productCard.js';
+import {
+  swiperHero,
+  swiperFeaturedCollection,
+} from './scripts/services/swiperConfig.js';
 
 // Process the entered user user form data
 const helpForm = document.getElementById('help-form');
