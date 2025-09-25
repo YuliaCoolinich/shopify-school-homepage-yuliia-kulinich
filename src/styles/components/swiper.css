@@ -89,13 +89,15 @@ div.hero-container button {
   pointer-events: all;
   color: #FFFFFF;
   cursor: pointer;
+  border: none;
 }
 
-div.hero-container button span {
+div.hero-container button a {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0;
   color: #111111;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
