@@ -11,6 +11,8 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 100%;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .menu-wrapper {
